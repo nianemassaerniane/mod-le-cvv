@@ -1,0 +1,55 @@
+body{
+    background-color: lightslategray;
+}
+main{
+width: 650px;
+margin: auto;
+background-color: white;
+}
+.principal{
+    display: flex;
+}
+
+.profile{background: url(ressources/forme1.PNG);
+width: 48%;
+height: 720px;
+background-size:auto 720px ;
+background-position: top -82px left -100PX;
+background-repeat: no-repeat;
+}
+.titre{
+    margin-left: 12px;
+}
+
+
+.descriptionTitre p{
+    font-size: 0.6rem;
+    margin-left: 12px;
+
+}
+.photoProfile{
+    height: 223px;
+    width: 223px;
+    margin-left: 12px;
+    border-radius: 50%;
+}
+.presentationFormation{
+    width: 52%;
+}
+.presentation{
+    background: url(ressources/forme2.PNG);
+    height: 368px;
+    width: 100%;
+    background-position:top -222px right -170px ;
+    background-repeat: no-repeat;
+}
+.nomPrenom{
+    text-align: center;
+    padding-top: 120px;
+    margin: 0;
+    font-size: 52px;
+}
+.fonction{
+    color: #C7998C;
+    text-align: center;
+}
