@@ -10,9 +10,10 @@ background-color: white;
     display: flex;
 }
 
-.profile{background: url(ressources/forme1.PNG);
+.left{background: url(ressources/forme1.PNG);
 width: 48%;
-height: 720px;
+display: flex;
+flex-direction: column;
 background-size:auto 720px ;
 background-position: top -82px left -100PX;
 background-repeat: no-repeat;
@@ -74,4 +75,20 @@ background-repeat: no-repeat;
 }
 .descriptionExperience h4{
     margin: 8px auto;
+}
+.competence{
+    margin-top: 54px;
+}
+.contact{
+    background: url(ressources/forme3.PNG);
+    background-repeat: no-repeat;
+    background-position:top -32px right -10px ;
+    height: 320px;   
+}
+.contact h3{
+margin-top: 129px;
+}
+.contact a {
+    text-decoration: none;
+    color: black;
 }
