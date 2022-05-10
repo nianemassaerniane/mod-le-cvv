@@ -53,3 +53,25 @@ background-repeat: no-repeat;
     color: #C7998C;
     text-align: center;
 }
+.formation .titre{
+    margin: 0;
+}
+.descriptionFormation p{
+    margin: 1px;
+    font-size: x-small;
+}
+.descriptionFormation h4{
+    margin: 8px auto;
+}
+.experience .titre{
+    margin-left: 0;
+}
+.descriptionExperience ul{
+    font-size: x-small;
+}
+.descriptionExperience p{
+    font-size: small;
+}
+.descriptionExperience h4{
+    margin: 8px auto;
+}
